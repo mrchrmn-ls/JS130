@@ -12,14 +12,14 @@ class Triangle {
     }
 
     if (!(this.sides[0] + this.sides[1] > this.sides[2])) {
-      throw new Error("Lengths violate triangle inequality.")
+      throw new Error("Lengths violate triangle inequality.");
     }
   }
 
   kind() {
     if (this.sides[0] === this.sides[2]) {
       return "equilateral";
-    } 
+    }
 
     if (this.sides[1] === this.sides[2]) {
       return "isosceles";

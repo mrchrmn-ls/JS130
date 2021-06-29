@@ -1,7 +1,7 @@
 class Octal {
   constructor(string) {
     if (string.match(/[^0-7]+/gi)) {
-      this.octalNumber = "0"
+      this.octalNumber = "0";
     } else {
       this.octalNumber = string;
     }
